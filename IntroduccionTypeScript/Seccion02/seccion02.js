@@ -1,4 +1,4 @@
-// En TypeScript se pueden tipar las variables. Esto dá más control sobre ellas en JS
+// En TypeScript se pueden tipar las variables. Esto dá más control sobre ellas en JS, por ejemplo nos impide definir variables con el mismo nombre
 var nombre = 'Peter';
 var numero = 12345;
 var cualquiera = 'Esto podría ser cualquier tipo';
@@ -19,8 +19,7 @@ spiderman = {
     edad: 45
 };
 console.log(CONSTANTE);
-var texto = 'Hola mundo';
 var apellido = 'Ramiro';
-// Para crear Templates usamos ` ` y para poder llamar a las variables dentro de un Tempate podemos usar el {{ }}
-texto = "Hola {{nombre}} {{apellido}}";
+// Para crear Templates usamos ` ` y para poder llamar a las variables dentro de un Template podemos usar el ${ nombre de la variable }
+var texto = "Hola," + nombre + " " + apellido;
 console.log(texto);
