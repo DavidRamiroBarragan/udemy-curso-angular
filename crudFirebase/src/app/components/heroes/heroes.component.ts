@@ -7,7 +7,7 @@ import { HeroesService } from '../../services/heroes.service';
   styleUrls: [ './heroes.component.css' ]
 } )
 export class HeroesComponent implements OnInit {
-  heroes: any[] = [];
+  heroes: any;
 
   constructor( private _heroesService: HeroesService ) {
     this._heroesService.getHeroes().subscribe( res => this.heroes = res );
