@@ -69,7 +69,7 @@ typings/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-**/.idea/*
+**/.idea/
 
 # Generated files
 .idea/**/contentModel.xml
@@ -140,3 +140,4 @@ crudFirebase/.idea/vcs.xml
 crudFirebase/.idea/workspace.xml
 crudFirebase/.idea/workspace.xml
 crudFirebase/.idea/vcs.xml
+package-lock.json

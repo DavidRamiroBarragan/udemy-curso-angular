@@ -1,0 +1,10 @@
+<h1>Virtua scroll</h1>
+<hr>
+<cdk-virtual-scroll-viewport itemSize="50" class="list-container list-group">
+  <div *cdkVirtualFor="let persona of personas; let i = index; let conteo = count" class="list-group-item">
+    <div>Item {{i}} de {{conteo}}</div>
+  </div>
+
+
+
+</cdk-virtual-scroll-viewport>
